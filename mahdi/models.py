@@ -58,6 +58,9 @@ class Skills(models.Model):
 
     skill_name = models.CharField(max_length=20)
 
+    class Meta:
+        verbose_name_plural = 'Skills'
+
 
 # PORTFOLIO SECTION
 
