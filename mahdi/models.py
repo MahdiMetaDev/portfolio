@@ -20,7 +20,7 @@ class Home(models.Model):
 
 class About(models.Model):
     heading = models.CharField(max_length=50)
-    career = models.CharField(max_length=20)
+    career = models.CharField(max_length=50)
     description = models.TextField(blank=False)
     profile_img = models.ImageField(upload_to='profile/')
     
